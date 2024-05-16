@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <record id="view_move_tree" model="ir.ui.view">
+        <field name="name">account.move.tree.inherit</field>
+        <field name="model">account.move</field>
+        <field name="inherit_id" ref="account.view_move_tree" />
+        <field eval="9" name="priority" />
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='company_currency_id']" position="before">
+                <field name="id" />
+            </xpath>
+        </field>
+    </record>
+</odoo>

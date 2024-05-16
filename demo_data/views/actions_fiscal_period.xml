@@ -1,0 +1,15 @@
+<odoo>
+    <record id="action_setup_financial_year_opening_form" model="ir.actions.act_window">
+        <field name="name">Fiscal period action</field>
+        <field name="res_model">account.financial.year.op</field>
+        <field name="target">new</field>
+        <field name="view_mode">form</field>
+    </record>
+    <record id="menu_action_setup_financial_year_opening_form" model="ir.ui.menu">
+        <field name="name">Fiscal period</field>
+        <field name="active">True</field>
+        <field name="sequence">6</field>
+        <field name="action" ref="action_setup_financial_year_opening_form" />
+        <field name="parent_id" ref="account.account_account_menu" />
+    </record>
+</odoo>

@@ -1,0 +1,14 @@
+<odoo>
+    <record id="action_account_chart_template_form" model="ir.actions.act_window">
+        <field name="name">Account Chart Templates</field>
+        <field name="res_model">account.chart.template</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+    <record id="menu_account_tax_template" model="ir.ui.menu">
+        <field name="name">Chart Template</field>
+        <field name="active">True</field>
+        <field name="sequence">100</field>
+        <field name="action" ref="demo_data.action_account_chart_template_form" />
+        <field name="parent_id" ref="account.account_account_menu" />
+    </record>
+</odoo>

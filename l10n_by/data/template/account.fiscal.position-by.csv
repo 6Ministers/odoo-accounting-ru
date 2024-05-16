@@ -1,0 +1,2 @@
+"id","sequence","name","auto_apply","country_id","country_group_id","tax_ids/tax_src_id","tax_ids/tax_dest_id","name@by"
+"fiscal_position_template_VAT20","1","НДС 20%","1","base.by","","","","BY"

@@ -1,0 +1,713 @@
+<odoo>
+    <record id="base.af" model="res.country">
+      <field name="decimal_code">004</field>
+    </record>
+    <record id="base.al" model="res.country">
+      <field name="decimal_code">008</field>
+    </record>
+    <record id="base.aq" model="res.country">
+      <field name="decimal_code">010</field>
+    </record>
+    <record id="base.dz" model="res.country">
+      <field name="decimal_code">012</field>
+    </record>
+    <record id="base.as" model="res.country">
+      <field name="decimal_code">016</field>
+    </record>
+    <record id="base.ad" model="res.country">
+      <field name="decimal_code">020</field>
+    </record>
+    <record id="base.ao" model="res.country">
+      <field name="decimal_code">024</field>
+    </record>
+    <record id="base.ag" model="res.country">
+      <field name="decimal_code">028</field>
+    </record>
+    <record id="base.az" model="res.country">
+      <field name="decimal_code">031</field>
+    </record>
+    <record id="base.ar" model="res.country">
+      <field name="decimal_code">032</field>
+    </record>
+    <record id="base.au" model="res.country">
+      <field name="decimal_code">036</field>
+    </record>
+    <record id="base.at" model="res.country">
+      <field name="decimal_code">040</field>
+    </record>
+    <record id="base.bs" model="res.country">
+      <field name="decimal_code">044</field>
+    </record>
+    <record id="base.bh" model="res.country">
+      <field name="decimal_code">048</field>
+    </record>
+    <record id="base.bd" model="res.country">
+      <field name="decimal_code">050</field>
+    </record>
+    <record id="base.am" model="res.country">
+      <field name="decimal_code">051</field>
+    </record>
+    <record id="base.bb" model="res.country">
+      <field name="decimal_code">052</field>
+    </record>
+    <record id="base.be" model="res.country">
+      <field name="decimal_code">056</field>
+    </record>
+    <record id="base.bm" model="res.country">
+      <field name="decimal_code">060</field>
+    </record>
+    <record id="base.bt" model="res.country">
+      <field name="decimal_code">064</field>
+    </record>
+    <record id="base.bo" model="res.country">
+      <field name="decimal_code">068</field>
+    </record>
+    <record id="base.ba" model="res.country">
+      <field name="decimal_code">070</field>
+    </record>
+    <record id="base.bw" model="res.country">
+      <field name="decimal_code">072</field>
+    </record>
+    <record id="base.bv" model="res.country">
+      <field name="decimal_code">074</field>
+    </record>
+    <record id="base.br" model="res.country">
+      <field name="decimal_code">076</field>
+    </record>
+    <record id="base.bz" model="res.country">
+      <field name="decimal_code">084</field>
+    </record>
+    <record id="base.io" model="res.country">
+      <field name="decimal_code">086</field>
+    </record>
+    <record id="base.sb" model="res.country">
+      <field name="decimal_code">090</field>
+    </record>
+    <record id="base.vg" model="res.country">
+      <field name="decimal_code">092</field>
+    </record>
+    <record id="base.bn" model="res.country">
+      <field name="decimal_code">096</field>
+    </record>
+    <record id="base.bg" model="res.country">
+      <field name="decimal_code">100</field>
+    </record>
+    <record id="base.mm" model="res.country">
+      <field name="decimal_code">104</field>
+    </record>
+    <record id="base.bi" model="res.country">
+      <field name="decimal_code">108</field>
+    </record>
+    <record id="base.by" model="res.country">
+      <field name="decimal_code">112</field>
+    </record>
+    <record id="base.kh" model="res.country">
+      <field name="decimal_code">116</field>
+    </record>
+    <record id="base.cm" model="res.country">
+      <field name="decimal_code">120</field>
+    </record>
+    <record id="base.ca" model="res.country">
+      <field name="decimal_code">124</field>
+    </record>
+    <record id="base.cv" model="res.country">
+      <field name="decimal_code">132</field>
+    </record>
+    <record id="base.ky" model="res.country">
+      <field name="decimal_code">136</field>
+    </record>
+    <record id="base.cf" model="res.country">
+      <field name="decimal_code">140</field>
+    </record>
+    <record id="base.lk" model="res.country">
+      <field name="decimal_code">144</field>
+    </record>
+    <record id="base.td" model="res.country">
+      <field name="decimal_code">148</field>
+    </record>
+    <record id="base.cl" model="res.country">
+      <field name="decimal_code">152</field>
+    </record>
+    <record id="base.cn" model="res.country">
+      <field name="decimal_code">156</field>
+    </record>
+    <record id="base.tw" model="res.country">
+      <field name="decimal_code">158</field>
+    </record>
+    <record id="base.cx" model="res.country">
+      <field name="decimal_code">162</field>
+    </record>
+    <record id="base.cc" model="res.country">
+      <field name="decimal_code">166</field>
+    </record>
+    <record id="base.co" model="res.country">
+      <field name="decimal_code">170</field>
+    </record>
+    <record id="base.km" model="res.country">
+      <field name="decimal_code">174</field>
+    </record>
+    <record id="base.yt" model="res.country">
+      <field name="decimal_code">175</field>
+    </record>
+    <record id="base.cg" model="res.country">
+      <field name="decimal_code">178</field>
+    </record>
+    <record id="base.cd" model="res.country">
+      <field name="decimal_code">180</field>
+    </record>
+    <record id="base.ck" model="res.country">
+      <field name="decimal_code">184</field>
+    </record>
+    <record id="base.cr" model="res.country">
+      <field name="decimal_code">188</field>
+    </record>
+    <record id="base.hr" model="res.country">
+      <field name="decimal_code">191</field>
+    </record>
+    <record id="base.cu" model="res.country">
+      <field name="decimal_code">192</field>
+    </record>
+    <record id="base.cy" model="res.country">
+      <field name="decimal_code">196</field>
+    </record>
+    <record id="base.cz" model="res.country">
+      <field name="decimal_code">203</field>
+    </record>
+    <record id="base.bj" model="res.country">
+      <field name="decimal_code">204</field>
+    </record>
+    <record id="base.dk" model="res.country">
+      <field name="decimal_code">208</field>
+    </record>
+    <record id="base.dm" model="res.country">
+      <field name="decimal_code">212</field>
+    </record>
+    <record id="base.do" model="res.country">
+      <field name="decimal_code">214</field>
+    </record>
+    <record id="base.ec" model="res.country">
+      <field name="decimal_code">218</field>
+    </record>
+    <record id="base.sv" model="res.country">
+      <field name="decimal_code">222</field>
+    </record>
+    <record id="base.gq" model="res.country">
+      <field name="decimal_code">226</field>
+    </record>
+    <record id="base.et" model="res.country">
+      <field name="decimal_code">231</field>
+    </record>
+    <record id="base.er" model="res.country">
+      <field name="decimal_code">232</field>
+    </record>
+    <record id="base.ee" model="res.country">
+      <field name="decimal_code">233</field>
+    </record>
+    <record id="base.fo" model="res.country">
+      <field name="decimal_code">234</field>
+    </record>
+    <record id="base.fk" model="res.country">
+      <field name="decimal_code">238</field>
+    </record>
+    <record id="base.gs" model="res.country">
+      <field name="decimal_code">239</field>
+    </record>
+    <record id="base.fj" model="res.country">
+      <field name="decimal_code">242</field>
+    </record>
+    <record id="base.fi" model="res.country">
+      <field name="decimal_code">246</field>
+    </record>
+    <record id="base.fr" model="res.country">
+      <field name="decimal_code">250</field>
+    </record>
+    <record id="base.gf" model="res.country">
+      <field name="decimal_code">254</field>
+    </record>
+    <record id="base.pf" model="res.country">
+      <field name="decimal_code">258</field>
+    </record>
+    <record id="base.tf" model="res.country">
+      <field name="decimal_code">260</field>
+    </record>
+    <record id="base.dj" model="res.country">
+      <field name="decimal_code">262</field>
+    </record>
+    <record id="base.ga" model="res.country">
+      <field name="decimal_code">266</field>
+    </record>
+    <record id="base.ge" model="res.country">
+      <field name="decimal_code">268</field>
+    </record>
+    <record id="base.gm" model="res.country">
+      <field name="decimal_code">270</field>
+    </record>
+    <record id="base.de" model="res.country">
+      <field name="decimal_code">276</field>
+    </record>
+    <record id="base.gh" model="res.country">
+      <field name="decimal_code">288</field>
+    </record>
+    <record id="base.gi" model="res.country">
+      <field name="decimal_code">292</field>
+    </record>
+    <record id="base.ki" model="res.country">
+      <field name="decimal_code">296</field>
+    </record>
+    <record id="base.gr" model="res.country">
+      <field name="decimal_code">300</field>
+    </record>
+    <record id="base.gl" model="res.country">
+      <field name="decimal_code">304</field>
+    </record>
+    <record id="base.gd" model="res.country">
+      <field name="decimal_code">308</field>
+    </record>
+    <record id="base.gp" model="res.country">
+      <field name="decimal_code">312</field>
+    </record>
+    <record id="base.gu" model="res.country">
+      <field name="decimal_code">316</field>
+    </record>
+    <record id="base.gt" model="res.country">
+      <field name="decimal_code">320</field>
+    </record>
+    <record id="base.gn" model="res.country">
+      <field name="decimal_code">324</field>
+    </record>
+    <record id="base.gy" model="res.country">
+      <field name="decimal_code">328</field>
+    </record>
+    <record id="base.ht" model="res.country">
+      <field name="decimal_code">332</field>
+    </record>
+    <record id="base.hm" model="res.country">
+      <field name="decimal_code">334</field>
+    </record>
+    <record id="base.va" model="res.country">
+      <field name="decimal_code">336</field>
+    </record>
+    <record id="base.hn" model="res.country">
+      <field name="decimal_code">340</field>
+    </record>
+    <record id="base.hu" model="res.country">
+      <field name="decimal_code">348</field>
+    </record>
+    <record id="base.is" model="res.country">
+      <field name="decimal_code">352</field>
+    </record>
+    <record id="base.in" model="res.country">
+      <field name="decimal_code">356</field>
+    </record>
+    <record id="base.id" model="res.country">
+      <field name="decimal_code">360</field>
+    </record>
+    <record id="base.ir" model="res.country">
+      <field name="decimal_code">364</field>
+    </record>
+    <record id="base.iq" model="res.country">
+      <field name="decimal_code">368</field>
+    </record>
+    <record id="base.ie" model="res.country">
+      <field name="decimal_code">372</field>
+    </record>
+    <record id="base.il" model="res.country">
+      <field name="decimal_code">376</field>
+    </record>
+    <record id="base.it" model="res.country">
+      <field name="decimal_code">380</field>
+    </record>
+    <record id="base.ci" model="res.country">
+      <field name="decimal_code">384</field>
+    </record>
+    <record id="base.jm" model="res.country">
+      <field name="decimal_code">388</field>
+    </record>
+    <record id="base.jp" model="res.country">
+      <field name="decimal_code">392</field>
+    </record>
+    <record id="base.kz" model="res.country">
+      <field name="decimal_code">398</field>
+    </record>
+    <record id="base.jo" model="res.country">
+      <field name="decimal_code">400</field>
+    </record>
+    <record id="base.ke" model="res.country">
+      <field name="decimal_code">404</field>
+    </record>
+    <record id="base.kp" model="res.country">
+      <field name="decimal_code">408</field>
+    </record>
+    <record id="base.kr" model="res.country">
+      <field name="decimal_code">410</field>
+    </record>
+    <record id="base.kw" model="res.country">
+      <field name="decimal_code">414</field>
+    </record>
+    <record id="base.kg" model="res.country">
+      <field name="decimal_code">417</field>
+    </record>
+    <record id="base.la" model="res.country">
+      <field name="decimal_code">418</field>
+    </record>
+    <record id="base.lb" model="res.country">
+      <field name="decimal_code">422</field>
+    </record>
+    <record id="base.ls" model="res.country">
+      <field name="decimal_code">426</field>
+    </record>
+    <record id="base.lv" model="res.country">
+      <field name="decimal_code">428</field>
+    </record>
+    <record id="base.lr" model="res.country">
+      <field name="decimal_code">430</field>
+    </record>
+    <record id="base.ly" model="res.country">
+      <field name="decimal_code">434</field>
+    </record>
+    <record id="base.li" model="res.country">
+      <field name="decimal_code">438</field>
+    </record>
+    <record id="base.lt" model="res.country">
+      <field name="decimal_code">440</field>
+    </record>
+    <record id="base.lu" model="res.country">
+      <field name="decimal_code">442</field>
+    </record>
+    <record id="base.mo" model="res.country">
+      <field name="decimal_code">446</field>
+    </record>
+    <record id="base.mg" model="res.country">
+      <field name="decimal_code">450</field>
+    </record>
+    <record id="base.mw" model="res.country">
+      <field name="decimal_code">454</field>
+    </record>
+    <record id="base.my" model="res.country">
+      <field name="decimal_code">458</field>
+    </record>
+    <record id="base.mv" model="res.country">
+      <field name="decimal_code">462</field>
+    </record>
+    <record id="base.ml" model="res.country">
+      <field name="decimal_code">466</field>
+    </record>
+    <record id="base.mt" model="res.country">
+      <field name="decimal_code">470</field>
+    </record>
+    <record id="base.mq" model="res.country">
+      <field name="decimal_code">474</field>
+    </record>
+    <record id="base.mr" model="res.country">
+      <field name="decimal_code">478</field>
+    </record>
+    <record id="base.mu" model="res.country">
+      <field name="decimal_code">480</field>
+    </record>
+    <record id="base.mx" model="res.country">
+      <field name="decimal_code">484</field>
+    </record>
+    <record id="base.mc" model="res.country">
+      <field name="decimal_code">492</field>
+    </record>
+    <record id="base.mn" model="res.country">
+      <field name="decimal_code">496</field>
+    </record>
+    <record id="base.md" model="res.country">
+      <field name="decimal_code">498</field>
+    </record>
+    <record id="base.ms" model="res.country">
+      <field name="decimal_code">500</field>
+    </record>
+    <record id="base.ma" model="res.country">
+      <field name="decimal_code">504</field>
+    </record>
+    <record id="base.mz" model="res.country">
+      <field name="decimal_code">508</field>
+    </record>
+    <record id="base.om" model="res.country">
+      <field name="decimal_code">512</field>
+    </record>
+    <record id="base.na" model="res.country">
+      <field name="decimal_code">516</field>
+    </record>
+    <record id="base.nr" model="res.country">
+      <field name="decimal_code">520</field>
+    </record>
+    <record id="base.np" model="res.country">
+      <field name="decimal_code">524</field>
+    </record>
+    <record id="base.nl" model="res.country">
+      <field name="decimal_code">528</field>
+    </record>
+    <!-- <record id="base.an" model="res.country">
+      <field name="decimal_code">530</field>
+    </record> -->
+    <record id="base.aw" model="res.country">
+      <field name="decimal_code">533</field>
+    </record>
+    <record id="base.nc" model="res.country">
+      <field name="decimal_code">540</field>
+    </record>
+    <record id="base.vu" model="res.country">
+      <field name="decimal_code">548</field>
+    </record>
+    <record id="base.nz" model="res.country">
+      <field name="decimal_code">554</field>
+    </record>
+    <record id="base.ni" model="res.country">
+      <field name="decimal_code">558</field>
+    </record>
+    <record id="base.ne" model="res.country">
+      <field name="decimal_code">562</field>
+    </record>
+    <record id="base.ng" model="res.country">
+      <field name="decimal_code">566</field>
+    </record>
+    <record id="base.nu" model="res.country">
+      <field name="decimal_code">570</field>
+    </record>
+    <record id="base.nf" model="res.country">
+      <field name="decimal_code">574</field>
+    </record>
+    <record id="base.no" model="res.country">
+      <field name="decimal_code">578</field>
+    </record>
+    <record id="base.mp" model="res.country">
+      <field name="decimal_code">580</field>
+    </record>
+    <record id="base.um" model="res.country">
+      <field name="decimal_code">581</field>
+    </record>
+    <record id="base.fm" model="res.country">
+      <field name="decimal_code">583</field>
+    </record>
+    <record id="base.mh" model="res.country">
+      <field name="decimal_code">584</field>
+    </record>
+    <record id="base.pw" model="res.country">
+      <field name="decimal_code">585</field>
+    </record>
+    <record id="base.pk" model="res.country">
+      <field name="decimal_code">586</field>
+    </record>
+    <record id="base.pa" model="res.country">
+      <field name="decimal_code">591</field>
+    </record>
+    <record id="base.pg" model="res.country">
+      <field name="decimal_code">598</field>
+    </record>
+    <record id="base.py" model="res.country">
+      <field name="decimal_code">600</field>
+    </record>
+    <record id="base.pe" model="res.country">
+      <field name="decimal_code">604</field>
+    </record>
+    <record id="base.ph" model="res.country">
+      <field name="decimal_code">608</field>
+    </record>
+    <record id="base.pn" model="res.country">
+      <field name="decimal_code">612</field>
+    </record>
+    <record id="base.pl" model="res.country">
+      <field name="decimal_code">616</field>
+    </record>
+    <record id="base.pt" model="res.country">
+      <field name="decimal_code">620</field>
+    </record>
+    <record id="base.gw" model="res.country">
+      <field name="decimal_code">624</field>
+    </record>
+    <!-- <record id="base.tp" model="res.country">
+      <field name="decimal_code">626</field>
+    </record> -->
+    <record id="base.pr" model="res.country">
+      <field name="decimal_code">630</field>
+    </record>
+    <record id="base.qa" model="res.country">
+      <field name="decimal_code">634</field>
+    </record>
+    <record id="base.re" model="res.country">
+      <field name="decimal_code">638</field>
+    </record>
+    <record id="base.ro" model="res.country">
+      <field name="decimal_code">642</field>
+    </record>
+    <record id="base.ru" model="res.country">
+      <field name="decimal_code">643</field>
+    </record>
+    <record id="base.rw" model="res.country">
+      <field name="decimal_code">646</field>
+    </record>
+    <record id="base.sh" model="res.country">
+      <field name="decimal_code">654</field>
+    </record>
+    <record id="base.kn" model="res.country">
+      <field name="decimal_code">659</field>
+    </record>
+    <record id="base.ai" model="res.country">
+      <field name="decimal_code">660</field>
+    </record>
+    <record id="base.lc" model="res.country">
+      <field name="decimal_code">662</field>
+    </record>
+    <record id="base.pm" model="res.country">
+      <field name="decimal_code">666</field>
+    </record>
+    <record id="base.vc" model="res.country">
+      <field name="decimal_code">670</field>
+    </record>
+    <record id="base.sm" model="res.country">
+      <field name="decimal_code">674</field>
+    </record>
+    <record id="base.st" model="res.country">
+      <field name="decimal_code">678</field>
+    </record>
+    <record id="base.sa" model="res.country">
+      <field name="decimal_code">682</field>
+    </record>
+    <record id="base.sn" model="res.country">
+      <field name="decimal_code">686</field>
+    </record>
+    <record id="base.sc" model="res.country">
+      <field name="decimal_code">690</field>
+    </record>
+    <record id="base.sl" model="res.country">
+      <field name="decimal_code">694</field>
+    </record>
+    <record id="base.sg" model="res.country">
+      <field name="decimal_code">702</field>
+    </record>
+    <record id="base.sk" model="res.country">
+      <field name="decimal_code">703</field>
+    </record>
+    <record id="base.vn" model="res.country">
+      <field name="decimal_code">704</field>
+    </record>
+    <record id="base.si" model="res.country">
+      <field name="decimal_code">705</field>
+    </record>
+    <record id="base.so" model="res.country">
+      <field name="decimal_code">706</field>
+    </record>
+    <record id="base.za" model="res.country">
+      <field name="decimal_code">710</field>
+    </record>
+    <record id="base.zw" model="res.country">
+      <field name="decimal_code">716</field>
+    </record>
+    <record id="base.es" model="res.country">
+      <field name="decimal_code">724</field>
+    </record>
+    <record id="base.eh" model="res.country">
+      <field name="decimal_code">732</field>
+    </record>
+    <record id="base.sd" model="res.country">
+      <field name="decimal_code">736</field>
+    </record>
+    <record id="base.sr" model="res.country">
+      <field name="decimal_code">740</field>
+    </record>
+    <record id="base.sj" model="res.country">
+      <field name="decimal_code">744</field>
+    </record>
+    <record id="base.sz" model="res.country">
+      <field name="decimal_code">748</field>
+    </record>
+    <record id="base.se" model="res.country">
+      <field name="decimal_code">752</field>
+    </record>
+    <record id="base.ch" model="res.country">
+      <field name="decimal_code">756</field>
+    </record>
+    <record id="base.sy" model="res.country">
+      <field name="decimal_code">760</field>
+    </record>
+    <record id="base.tj" model="res.country">
+      <field name="decimal_code">762</field>
+    </record>
+    <record id="base.th" model="res.country">
+      <field name="decimal_code">764</field>
+    </record>
+    <record id="base.tg" model="res.country">
+      <field name="decimal_code">768</field>
+    </record>
+    <record id="base.tk" model="res.country">
+      <field name="decimal_code">772</field>
+    </record>
+    <record id="base.to" model="res.country">
+      <field name="decimal_code">776</field>
+    </record>
+    <record id="base.tt" model="res.country">
+      <field name="decimal_code">780</field>
+    </record>
+    <record id="base.ae" model="res.country">
+      <field name="decimal_code">784</field>
+    </record>
+    <record id="base.tn" model="res.country">
+      <field name="decimal_code">788</field>
+    </record>
+    <record id="base.tr" model="res.country">
+      <field name="decimal_code">792</field>
+    </record>
+    <record id="base.tm" model="res.country">
+      <field name="decimal_code">795</field>
+    </record>
+    <record id="base.tc" model="res.country">
+      <field name="decimal_code">796</field>
+    </record>
+    <record id="base.tv" model="res.country">
+      <field name="decimal_code">798</field>
+    </record>
+    <record id="base.ug" model="res.country">
+      <field name="decimal_code">800</field>
+    </record>
+    <record id="base.ua" model="res.country">
+      <field name="decimal_code">804</field>
+    </record>
+    <record id="base.mk" model="res.country">
+      <field name="decimal_code">807</field>
+    </record>
+    <record id="base.eg" model="res.country">
+      <field name="decimal_code">818</field>
+    </record>
+    <!-- <record id="base.gb" model="res.country">
+      <field name="decimal_code">826</field>
+    </record> -->
+    <record id="base.tz" model="res.country">
+      <field name="decimal_code">834</field>
+    </record>
+    <record id="base.us" model="res.country">
+      <field name="decimal_code">840</field>
+    </record>
+    <record id="base.vi" model="res.country">
+      <field name="decimal_code">850</field>
+    </record>
+    <record id="base.bf" model="res.country">
+      <field name="decimal_code">854</field>
+    </record>
+    <record id="base.uy" model="res.country">
+      <field name="decimal_code">858</field>
+    </record>
+    <record id="base.uz" model="res.country">
+      <field name="decimal_code">860</field>
+    </record>
+    <record id="base.ve" model="res.country">
+      <field name="decimal_code">862</field>
+    </record>
+    <record id="base.wf" model="res.country">
+      <field name="decimal_code">876</field>
+    </record>
+    <record id="base.ws" model="res.country">
+      <field name="decimal_code">882</field>
+    </record>
+    <record id="base.ye" model="res.country">
+      <field name="decimal_code">887</field>
+    </record>
+    <!-- <record id="base.yu" model="res.country">
+      <field name="decimal_code">891</field>
+    </record> -->
+    <record id="base.zm" model="res.country">
+      <field name="decimal_code">894</field>
+    </record>
+  </odoo>
