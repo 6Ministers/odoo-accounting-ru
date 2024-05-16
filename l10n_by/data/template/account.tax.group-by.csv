@@ -1,0 +1,7 @@
+"id","name","country_id"
+"tax_group_vat20","НДС 20%","base.by"
+"tax_group_vat10","НДС 10%","base.by"
+"tax_group_vat25","НДС 25%","base.by"
+"tax_group_vat0","НДС 0%","base.by"
+"tax_group_vat_free","Освобожден от НДС","base.by"
+"tax_group_not_vat","Без НДС","base.by"

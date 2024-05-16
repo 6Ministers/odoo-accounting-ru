@@ -1,0 +1,165 @@
+<odoo>
+    <!-- Units -->
+    <record id="uom.product_uom_unit" model="uom.uom">
+        <field name="code">796</field>
+        <field name="code_international">H87</field>
+        <field name="full_name">piece</field>
+    </record>
+
+    <record id="uom.product_uom_dozen" model="uom.uom">
+        <field name="code">641</field>
+        <field name="code_international">DZN</field>
+        <field name="full_name">dozens</field>
+    </record>
+
+    <!-- WORKING TIME -->
+    <record id="uom.product_uom_day" model="uom.uom">
+        <field name="code">359</field>
+        <field name="code_international">DAY</field>
+        <field name="full_name">day</field>
+    </record>
+    <record id="uom.product_uom_hour" model="uom.uom">
+        <field name="code">356</field>
+        <field name="code_international">HUR</field>
+        <field name="full_name">hour</field>
+    </record>
+
+    <!-- LENGTH -->
+    <record id="uom.product_uom_meter" model="uom.uom">
+        <field name="code">006</field>
+        <field name="code_international">MTR</field>
+        <field name="full_name">metre</field>
+    </record>
+    <record id="uom.product_uom_millimeter" model="uom.uom">
+        <field name="code">006</field>
+        <field name="code_international">MTR</field>
+        <field name="full_name">metre</field>
+    </record>
+    <record id="uom.product_uom_km" model="uom.uom">
+        <field name="code">006</field>
+        <field name="code_international">MTR</field>
+        <field name="full_name">metre</field>
+    </record>
+    <record id="uom.product_uom_cm" model="uom.uom">
+        <field name="code">006</field>
+        <field name="code_international">MTR</field>
+        <field name="full_name">metre</field>
+    </record>
+
+    <!-- SURFACE -->
+    <record id="uom.uom_square_meter" model="uom.uom">
+        <field name="code">055</field>
+        <field name="code_international">MTK</field>
+        <field name="full_name">square metre</field>
+    </record>
+
+    <!-- VOLUME -->
+    <record id="uom.product_uom_litre" model="uom.uom">
+        <field name="code">112</field>
+        <field name="code_international">LTR</field>
+        <field name="full_name">litre</field>
+    </record>
+    <record id="uom.product_uom_cubic_meter" model="uom.uom">
+        <field name="code">113</field>
+        <field name="code_international">MTQ</field>
+        <field name="full_name">cubic metre</field>
+    </record>
+
+    <!-- WEIGHT -->
+    <record id="uom.product_uom_kgm" model="uom.uom">
+        <field name="code">166</field>
+        <field name="code_international">KGM</field>
+        <field name="full_name">kilogram</field>
+    </record>
+    <record id="uom.product_uom_gram" model="uom.uom">
+        <field name="code">163</field>
+        <field name="code_international">GRM</field>
+        <field name="full_name">gram</field>
+    </record>
+    <record id="uom.product_uom_ton" model="uom.uom">
+        <field name="code">168</field>
+        <field name="code_international">TNE</field>
+        <field name="full_name">tonne</field>
+    </record>
+
+    <!--Americanization of units of measure-->
+    <!-- WEIGHT -->
+    <record id="uom.product_uom_lb" model="uom.uom">
+        <field name="code">202</field>
+        <field name="code_international">LBT</field>
+        <field name="full_name">troy pound (US)</field>
+        <field name="active">False</field>
+    </record>
+    <record id="uom.product_uom_oz" model="uom.uom">
+        <field name="code">201</field>
+        <field name="code_international">APZ</field>
+        <field name="full_name">troy ounce</field>
+        <field name="active">False</field>
+    </record>
+
+    <!-- LENGTH -->
+    <record id="uom.product_uom_inch" model="uom.uom">
+        <field name="code">039</field>
+        <field name="code_international">INH</field>
+        <field name="full_name">inch</field>
+        <field name="active">False</field>
+    </record>
+    <record id="uom.product_uom_foot" model="uom.uom">
+        <field name="code">041</field>
+        <field name="code_international">FOT</field>
+        <field name="full_name">foot</field>
+        <field name="active">False</field>
+    </record>
+    <record id="uom.product_uom_yard" model="uom.uom">
+        <field name="code">043</field>
+        <field name="code_international">YRD</field>
+        <field name="full_name">yard</field>
+        <field name="active">False</field>
+    </record>
+    <record id="uom.product_uom_mile" model="uom.uom">
+        <field name="code">045</field>
+        <field name="code_international">SMI</field>
+        <field name="full_name">mile</field>
+        <field name="active">False</field>
+    </record>
+
+    <!-- SURFACE -->
+    <record id="uom.uom_square_foot" model="uom.uom">
+        <field name="code">073</field>
+        <field name="code_international">FTK</field>
+        <field name="full_name">square foot</field>
+        <field name="active">False</field>
+    </record>
+
+    <!-- VOLUME -->
+    <record id="uom.product_uom_floz" model="uom.uom">
+        <field name="code">000</field>
+        <field name="code_international">---</field>
+        <field name="full_name">not exists</field>
+        <field name="active">False</field>
+    </record>
+    <record id="uom.product_uom_qt" model="uom.uom">
+        <field name="code">000</field>
+        <field name="code_international">---</field>
+        <field name="full_name">not exists</field>
+        <field name="active">False</field>
+    </record>
+    <record id="uom.product_uom_gal" model="uom.uom">
+        <field name="code">000</field>
+        <field name="code_international">---</field>
+        <field name="full_name">not exists</field>
+        <field name="active">False</field>
+    </record>
+    <record id="uom.product_uom_cubic_inch" model="uom.uom">
+        <field name="code">131</field>
+        <field name="code_international">INQ</field>
+        <field name="full_name">cubic inch</field>
+        <field name="active">False</field>
+    </record>
+    <record id="uom.product_uom_cubic_foot" model="uom.uom">
+        <field name="code">132</field>
+        <field name="code_international">FTQ</field>
+        <field name="full_name">cubic foot</field>
+        <field name="active">False</field>
+    </record>
+</odoo>

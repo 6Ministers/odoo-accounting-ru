@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo noupdate="1">
+    <record id="product_template_demo_1" model="product.template">
+        <field name="name">Продукт_1</field>
+        <field name="standard_price">100</field>
+        <field name="list_price">150</field>
+        <field name="detailed_type">product</field>
+        <field name="tracking">lot</field>
+        <field name="available_in_pos">True</field>
+        <!-- <field name="category_id" ref="product.product_category_all"/> -->
+
+    </record>
+    <record id="product_template_demo_2" model="product.template">
+        <field name="name">Продукт_2</field>
+        <field name="standard_price">200</field>
+        <field name="list_price">270</field>
+        <field name="detailed_type">product</field>
+        <field name="tracking">lot</field>
+        <field name="available_in_pos">True</field>
+        <!-- <field name="category_id" ref="product.product_category_all"/> -->
+    </record>
+    <record id="product_template_demo_3" model="product.template">
+        <field name="name">Продукт_3</field>
+        <field name="standard_price">300</field>
+        <field name="list_price">390</field>
+        <field name="detailed_type">product</field>
+        <field name="tracking">lot</field>
+        <field name="available_in_pos">True</field>
+        <!-- <field name="category_id" ref="product.product_category_all"/> -->
+    </record>
+
+    <record id="res_partner_supplier_001" model="res.partner">
+        <field name="name">Поставщик 001</field>
+        <field name="supplier_rank">1</field>
+        <field name="is_company">1</field>
+    </record>
+    <record id="res_partner_supplier_002" model="res.partner">
+        <field name="name">Поставщик 002</field>
+        <field name="is_company">1</field>
+        <field name="supplier_rank">1</field>
+    </record>
+
+    <record id="product_supplierinfo_pt_demo_1_suppier_001" model="product.supplierinfo">
+        <field name="product_tmpl_id" ref="demo_data.product_template_demo_1" />
+        <field name="partner_id" ref="demo_data.res_partner_supplier_001" />
+        <field name="min_qty">1</field>
+        <field name="price">100</field>
+        <field name="currency_id" ref="base.BYN" />
+    </record>
+    <record id="product_supplierinfo_pt_demo_2_suppier_002" model="product.supplierinfo">
+        <field name="product_tmpl_id" ref="demo_data.product_template_demo_2" />
+        <field name="partner_id" ref="demo_data.res_partner_supplier_002" />
+        <field name="min_qty">1</field>
+        <field name="price">200</field>
+        <field name="currency_id" ref="base.BYN" />
+    </record>
+
+
+    <record id="base.main_company" model="res.company">
+        <field name="name">Моя Компания</field>
+        <field name="city">г.Полоцк</field>
+        <field name="zip">220000</field>
+        <field name="country_id" ref="base.by" />
+        <field name="street">ул.Техническая</field>
+        <field name="street2">6а</field>
+        <field name="email">info@digital-autoparts.by</field>
+        <field name="vat">390390390</field>
+    </record>
+
+    <record id="main_company_delivery" model="res.partner">
+        <field name="name">Адрес склада Моей Компании</field>
+        <field name="type">delivery</field>
+        <field name="parent_id" ref="base.main_partner" />
+        <field name="city">г.Полоцк</field>
+        <field name="zip">220000</field>
+        <field name="country_id" ref="base.by" />
+        <field name="street">ул.ТехническаяДоставочная</field>
+        <field name="street2">10</field>
+        <field name="email">info@digital-autoparts.by</field>
+    </record>
+
+    <record id="res_partner_customer_001" model="res.partner">
+        <field name="name">AVS2</field>
+        <field name="is_company">1</field>
+        <field name="customer_rank">1</field>
+        <field name="type">contact</field>
+        <field name="city">г.Минск</field>
+        <field name="zip">220136</field>
+        <field name="country_id" ref="base.by" />
+        <field name="street">ул.ЮрПритыцкого</field>
+        <field name="street2">110</field>
+        <field name="email">opt@avs-auto.by</field>
+        <field name="vat">390390391</field>
+    </record>
+
+    <record id="res_partner_customer_001_delivery" model="res.partner">
+        <field name="name">AVS2</field>
+        <field name="type">delivery</field>
+        <field name="parent_id" ref="demo_data.res_partner_customer_001" />
+        <field name="city">г.Минск</field>
+        <field name="zip">220136</field>
+        <field name="country_id" ref="base.by" />
+        <field name="street">ул.ПритыцкогоДоставочная</field>
+        <field name="street2">111</field>
+        <field name="email">opt@avs-auto.by</field>
+        <field name="vat">390390391</field>
+    </record>
+
+    <record id="res_partner_customer_002" model="res.partner">
+        <field name="customer_rank">1</field>
+        <field name="name">Forvard2Motors</field>
+        <field name="is_company">True</field>
+        <field name="type">contact</field>
+        <field name="city">г.Полоцк</field>
+        <field name="zip">211400</field>
+        <field name="country_id" ref="base.by" />
+        <field name="street">ул.ЮрЗелёная</field>
+        <field name="street2">166</field>
+        <field name="email">robot@forward-motors.com</field>
+        <field name="vat">390390392</field>
+    </record>
+
+    <record id="res_partner_customer_002_delivery" model="res.partner">
+        <field name="customer_rank">1</field>
+        <field name="name">Forvard2Motors</field>
+        <field name="type">delivery</field>
+        <field name="parent_id" ref="demo_data.res_partner_customer_002" />
+        <field name="city">г.Полоцк</field>
+        <field name="zip">211400</field>
+        <field name="country_id" ref="base.by" />
+        <field name="street">ул.ДоставочноЗелёная</field>
+        <field name="street2">177</field>
+        <field name="email">robot@forward-motors.com</field>
+        <field name="vat">390390392</field>
+    </record>
+
+    <record id="base.group_user" model="res.groups">
+        <field
+            name="implied_ids"
+            eval="[
+            (4, ref('stock.group_production_lot')),
+            (4, ref('stock.group_lot_on_delivery_slip')),
+            (4, ref('uom.group_uom')),
+        ]"
+        />
+    </record>
+    <record id="base.group_portal" model="res.groups">
+        <field
+            name="implied_ids"
+            eval="[
+            (4, ref('stock.group_production_lot')),
+            (4, ref('stock.group_lot_on_delivery_slip')),
+        ]"
+        />
+    </record>
+
+    <record id="product.product_category_all" model="product.category">
+        <field name="removal_strategy_id" ref="stock.removal_fifo" />
+        <field name="property_cost_method">fifo</field>
+        <field name="property_valuation">real_time</field>
+    </record>
+</odoo>
