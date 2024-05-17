@@ -1,20 +1,4 @@
 
-[![Runboat](https://img.shields.io/badge/runboat-Try%20me-875A7B.png)](https://runboat.odoo-community.org/builds?repo=OCA/odoo-accounting-ru
-&target_branch=17.0)
-[![Pre-commit Status](https://github.com/OCA/odoo-accounting-ru
-/actions/workflows/pre-commit.yml/badge.svg?branch=17.0)](https://github.com/OCA/odoo-accounting-ru
-/actions/workflows/pre-commit.yml?query=branch%3A17.0)
-[![Build Status](https://github.com/OCA/odoo-accounting-ru
-/actions/workflows/test.yml/badge.svg?branch=17.0)](https://github.com/OCA/odoo-accounting-ru
-/actions/workflows/test.yml?query=branch%3A17.0)
-[![codecov](https://codecov.io/gh/OCA/odoo-accounting-ru
-/branch/17.0/graph/badge.svg)](https://codecov.io/gh/OCA/odoo-accounting-ru
-)
-[![Translation Status](https://translation.odoo-community.org/widgets/odoo-accounting-ru
--17-0/-/svg-badge.svg)](https://translation.odoo-community.org/engage/odoo-accounting-ru
--17-0/?utm_source=widget)
-
-<!-- /!\ do not modify above this line -->
 
 # Odoo accounting for Russia and Belarus
 
