@@ -40,14 +40,20 @@
         <field name="supplier_rank">1</field>
     </record>
 
-    <record id="product_supplierinfo_pt_demo_1_suppier_001" model="product.supplierinfo">
+    <record
+        id="product_supplierinfo_pt_demo_1_suppier_001"
+        model="product.supplierinfo"
+    >
         <field name="product_tmpl_id" ref="demo_data.product_template_demo_1" />
         <field name="partner_id" ref="demo_data.res_partner_supplier_001" />
         <field name="min_qty">1</field>
         <field name="price">100</field>
         <field name="currency_id" ref="base.BYN" />
     </record>
-    <record id="product_supplierinfo_pt_demo_2_suppier_002" model="product.supplierinfo">
+    <record
+        id="product_supplierinfo_pt_demo_2_suppier_002"
+        model="product.supplierinfo"
+    >
         <field name="product_tmpl_id" ref="demo_data.product_template_demo_2" />
         <field name="partner_id" ref="demo_data.res_partner_supplier_002" />
         <field name="min_qty">1</field>
