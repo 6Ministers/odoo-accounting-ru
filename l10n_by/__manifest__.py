@@ -3,7 +3,7 @@
     "name": "Belarus - Accounting",
     "icon": "/account/static/description/l10n.png",
     "countries": ["by"],
-    "author": "Digital-autoparts, Odoo Community Association (OCA)",
+    "author": "Digital-autoparts",
     "website": "https://github.com/6Ministers/odoo-accounting-ru",
     "version": "17.0.1.0.1",
     "summary": """
