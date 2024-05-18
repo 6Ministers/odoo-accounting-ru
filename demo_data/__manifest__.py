@@ -4,7 +4,7 @@
     "category": "Learning",
     "summary": "Module for learning website module abilities",
     "website": "https://github.com/6Ministers/odoo-accounting-ru",
-    "author": "Digital-autoparts, Odoo Community Association (OCA)",
+    "author": "Digital-autoparts",
     "depends": [
         "sale_management",
         "account",
