@@ -3,10 +3,10 @@
     "name": "Belarus - Accounting",
     "icon": "/account/static/description/l10n.png",
     "countries": ["by"],
-    "author": "Digital-autoparts",
+    "author": "Digital-autoparts, Odoo Community Association (OCA)",
     "website": "https://github.com/6Ministers/odoo-accounting-ru",
     "version": "17.0.1.0.1",
-    "description": """
+    "summary": """
 Belarus - Chart of accounts.
 ============================
     """,
