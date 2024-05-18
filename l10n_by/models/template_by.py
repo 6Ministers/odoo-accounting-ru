@@ -14,8 +14,10 @@ class AccountChartTemplate(models.AbstractModel):
             "property_account_payable_id": "by_600100",
             "property_account_expense_categ_id": "by_900401",
             "property_account_income_categ_id": "by_900101",
-            "property_stock_account_input_categ_id": "by_410101",  # allow reconciliation = true
-            "property_stock_account_output_categ_id": "by_410102",  # allow reconciliation = true
+            "property_stock_account_input_categ_id": "by_410101",
+            # allow reconciliation = true
+            "property_stock_account_output_categ_id": "by_410102",
+            # allow reconciliation = true
             "property_stock_valuation_account_id": "by_410100",
             "name": "План счетов РБ",
             "code_digits": "8",
