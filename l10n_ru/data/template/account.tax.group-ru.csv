@@ -1,0 +1,6 @@
+"id","name","country_id"
+"tax_group_vat_20","НДС 20%","base.ru"
+"tax_group_vat_18","НДС 18%","base.ru"
+"tax_group_vat_10","НДС 10%","base.ru"
+"tax_group_vat_0","НДС 0%","base.ru"
+"tax_group_not_vat","Без НДС","base.ru"
