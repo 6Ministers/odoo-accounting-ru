@@ -12,7 +12,7 @@
 
 - https://minfin.gov.ru/ru/document/?id_4=2293-plan_schetov_bukhgalterskogo_ucheta_finansovo-khozyaistvennoi_dyeyatelnosti_organizatsii_i_instruktsiya_po_primeneniyu_plana_schetov_bukhgalterskogo_ucheta_finansovo-khozyaistv
 
-## Налоговые учет
+## Налоговый учет
 
 Налоговый кодекс Российской Федерации состоит из двух частей
 

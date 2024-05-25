@@ -13,6 +13,7 @@ Russia - Chart of accounts.
     "category": "Accounting/Localizations/Account Charts",
     "depends": [
         "account",
+        "stock_account",
     ],
     "data": [],
     "demo": [],
