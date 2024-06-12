@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo noupdate="1">
+    <record id="category_mrp" model="product.category">
+        <field name="name">Manufacturing</field>
+        <field name="parent_id" ref="product.product_category_all" />
+    </record>
+    <record id="category_mrp_materials" model="product.category">
+        <field name="name">Materials</field>
+        <field name="parent_id" ref="category_mrp" />
+    </record>
+    <record id="category_mrp_parts" model="product.category">
+        <field name="name">Spare parts</field>
+        <field name="parent_id" ref="category_mrp" />
+    </record>
+    <record id="category_mrp_semi_finished" model="product.category">
+        <field name="name">Semi finished</field>
+        <field name="parent_id" ref="category_mrp" />
+    </record>
+    <record id="category_mrp_finished" model="product.category">
+        <field name="name">Finished</field>
+        <field name="parent_id" ref="category_mrp" />
+    </record>
+</odoo>
