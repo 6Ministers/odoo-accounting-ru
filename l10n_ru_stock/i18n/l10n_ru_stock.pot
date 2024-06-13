@@ -1,0 +1,63 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* l10n_ru_stock
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-06-12 19:44+0000\n"
+"PO-Revision-Date: 2024-06-12 19:44+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: l10n_ru_stock
+#: model:ir.model,name:l10n_ru_stock.model_account_chart_template
+msgid "Account Chart Template"
+msgstr ""
+
+#. module: l10n_ru_stock
+#: model:product.category,name:l10n_ru_stock.category_mrp_finished
+msgid "Finished"
+msgstr ""
+
+#. module: l10n_ru_stock
+#: model:product.category,name:l10n_ru_stock.category_mrp
+msgid "Manufacturing"
+msgstr ""
+
+#. module: l10n_ru_stock
+#: model:product.category,name:l10n_ru_stock.category_mrp_materials
+msgid "Materials"
+msgstr ""
+
+#. module: l10n_ru_stock
+#: model:ir.model.fields,field_description:l10n_ru_stock.field_product_category__name
+msgid "Name"
+msgstr ""
+
+#. module: l10n_ru_stock
+#: model:ir.model,name:l10n_ru_stock.model_product_category
+msgid "Product Category"
+msgstr ""
+
+#. module: l10n_ru_stock
+#: model:product.category,name:l10n_ru_stock.category_mrp_semi_finished
+msgid "Semi finished"
+msgstr ""
+
+#. module: l10n_ru_stock
+#: model:product.category,name:l10n_ru_stock.category_mrp_parts
+msgid "Spare parts"
+msgstr ""
+
+#. module: l10n_ru_stock
+#. odoo-python
+#: code:addons/l10n_ru_stock/models/product_category.py:0
+#, python-format
+msgid "You can't use Manual valuation method for Russian Accounting"
+msgstr ""

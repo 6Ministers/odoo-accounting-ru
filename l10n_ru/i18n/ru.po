@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 17.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-18 21:02+0000\n"
-"PO-Revision-Date: 2024-05-18 21:02+0000\n"
+"POT-Creation-Date: 2024-06-12 19:33+0000\n"
+"PO-Revision-Date: 2024-06-12 19:33+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -20,11 +20,6 @@ msgstr ""
 #: model:ir.model,name:l10n_ru.model_account_chart_template
 msgid "Account Chart Template"
 msgstr "Шаблон плана счетов"
-
-#. module: l10n_ru
-#: model:ir.model,name:l10n_ru.model_account_journal
-msgid "Journal"
-msgstr "Журнал"
 
 #. module: l10n_ru
 #. odoo-python
